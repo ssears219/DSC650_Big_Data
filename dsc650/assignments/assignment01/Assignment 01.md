@@ -10,8 +10,14 @@ author: Jane Doe
 
 | Data Item                                  | Size per Item | 
 |--------------------------------------------|--------------:|
-| 128 character message.                     | ? Bytes       |
+| 128 character message.                     | 128-512 Bytes |
+
+https://stackoverflow.com/questions/4850241/how-many-bits-or-bytes-are-there-in-a-character#:~:text=An%20ISO%2D8895%2D1%20character,common%20characters%20take%2016%20bits.  
+There are between 0.03125 and 0.125 characters per bit, so 0.25-1 charaters per byte, or 128 bytes to 512 bytes for 128 characters.
+
 | 1024x768 PNG image                         | ? MB          |
+
+
 | 1024x768 RAW image                         | ? MB          | 
 | HD (1080p) HEVC Video (15 minutes)         | ? MB          |
 | HD (1080p) Uncompressed Video (15 minutes) | ? MB          |
